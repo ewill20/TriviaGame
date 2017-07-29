@@ -1,0 +1,35 @@
+.subheader {
+	font-size: 20px;
+	color: white;
+}
+h1 {
+	font-size: 50px;
+	color: white;
+}
+.landing {
+	padding: 200px;
+	background-color: #ff5739;
+}
+a {
+	font-size: 24px;
+	border: solid 3px black;
+	padding: 5px 50px 5px 50px;
+	color: #ff5739;
+	background-color: blue;
+}
+body {
+	background-size: cover;
+	background-image: url("../images/archercast.jpg");
+	background-repeat: repeat-x;
+}
+.main-button-container {
+	margin-bottom: 0px;
+}
+.mainArea  {
+	background-image: url("../images/texture2.jpg")
+}
+p {
+	color: #d0e1e1;
+	font-size: 30px;
+	text-shadow: 1px 0 #cc6300, 0 -1px #cc6300, -1px 0 #cc6300, 0 1px #cc6300;
+}
