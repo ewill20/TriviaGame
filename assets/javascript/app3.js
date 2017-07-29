@@ -99,7 +99,7 @@ function timerWrapper() {
 }
 
 function finalScreen() {
-	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>We're finished, here's your results:" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correct + "</p>" + "<p>Wrong Answers: " + incorrect + "</p>" + "<p>Unanswered: " + unanswered + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-primary btn-lg btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
+	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>We're finished, here's your results:" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correct + "</p>" + "<p>Wrong Answers: " + incorrect + "</p>" + "<p>Unanswered: " + unanswered + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-primary btn-lg btn-block reset-button' href='#' role='button'>Reset The Game</a></p>";
 	$(".mainArea").html(gameHTML);
 }
 
@@ -118,7 +118,7 @@ var gameHTML;
 var counter = 30;
 var questionArray = ["What is Sterling Archer's codename?", "What is Archer's middle name?", "Who is Krieger supposedly a clone of?", "What is the name of Mallory Archer's secretary?", "Who in the show is worth more than $500 million?", "What is the name of the spy agency that Archer works for?", "What is Pam's position within the spy agency?", "Which character was a former bronze medalist in the winter olympics?"];
 var answerArray = [["Gurpgork", "Woodhouse", "Duchess", "Shiro Kabocha"], ["Duchess","Malory","Krieger","Jackoff"], ["Hitler", "Archer", "Woodhouse", "Lana"], ["Carol","Cheryl","Pam","Whordiot"], ["Woodhouse", "Cheryl", "Archer", "Mallory"], ["CIA","NSA","ISIS","Al-Qaeda"], ["Secretary", "Field Agent", "Comptroller", "Director of HR"], ["Ray","Archer","Lana","Krieger"]];
-var imageArray = ["<img class='center-block img-right' src='./assets/images/duchess.jpg'>", "<img class='center-block img-right' src='./assets/images/archer-malory.jpg'>", "<img class='center-block img-right' src='./assets/images/krieger.png'>", "<img class='center-block img-right' src='./assets/images/cheryl.jpg'>", "<img class='center-block img-right' src='./assets/images/cheryl.jpg'>", "<img class='center-block img-right' src='./assets/images/isis.jpg'>", "<img class='center-block img-right' src='./assets/images/pam.jpg'>", "<img class='center-block img-right' src='./assets/images/ray.jpg'>"];
+var imageArray = ["<img class='center-block img-right' src='./assets/images/duchess.jpg'>", "<img class='center-block img-right' src='./assets/images/archer-malory.jpg'>", "<img class='center-block img-right' src='./assets/images/krieger.png'>", "<img class='center-block img-right' src='./assets/images/cheryl.jpg'>", "<img class='center-block img-right' src='./assets/images/cheryl.jpg'>", "<img class='center-block img-right' src='./assets/images/isis1.jpg'>", "<img class='center-block img-right' src='./assets/images/pam.jpg'>", "<img class='center-block img-right' src='./assets/images/ray.jpg'>"];
 var correctAnswers = ["C. Duchess", "B. Malory", "A. Hitler", "B. Cheryl", "B. Cheryl", "C. ISIS", "D. Director of HR", "A. Ray"];
 var questionCounter = 0;
 var selecterAnswer;
